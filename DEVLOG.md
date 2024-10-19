@@ -206,6 +206,7 @@ WEATHER-PWA-2
   2. recheck if I need a runtime.txt file
   3. publish github repo
   4. write netlify.toml
+  5. clean up README.md and DEVLOG.md
 - **Progress made:**
   1. [progress]
 - **Next steps:**
