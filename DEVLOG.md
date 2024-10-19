@@ -3,6 +3,7 @@
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-10--19--2024-brightgreen)](https://github.com/jlahire/weather-pwa-2/blob/main/DEVLOG.md)
 [![Project Status](https://img.shields.io/badge/Status-Still%20Building-red)](https://github.com/jlahire/weather-pwa-2)
 [![Total Hours Worked](https://img.shields.io/badge/Project%20Hours-20hrs-black)](https://github.com/jlahire/weather-pwa-2)
+- [Link to Current Log](#current-log)
 
 ## Table of Contents
 - [Mentions](#mentions)
@@ -198,7 +199,7 @@ WEATHER-PWA-2
       1. The scale of this project seems to be continuing to grow. Again I spent the majority of my time reading to understand what I needed to do next. The most difficult part I think is making sure the python part is all compatible with python 3.8. 
       2. The continue problem I face right now is my lack of knowledge and experience. While I've done other projects that involve multiple languages I never really learned what I was coding but instaed wrote what I was instructed or advised to write. I'm not losing hope though. Each day I find myself understading just a little bit more than the day before.
       3. I can't do anything about the lack of time. I wish I could spend 10 hours a day 5 days a week working on this project but even the 20 hours I've put in over the past few days has taken a toll on my normal day-to-day. The light at the end of the tunnel here is my documentation. With how i'm documenting this development process it will be easier for me to pick up where I left off last. Still, I need to be more detail oriented with my progress and once I init my repo i'll begin using branches as I finish building weather.py and app.js. With this I will start doing 1-2 hours of work every other day so that I don't get burnt out working on this but also so I can have a better balance.
-
+## Current Log
 ### [10-19-2024] [![Day Status](https://img.shields.io/badge/Status-Ongoing-orange)]()
 - **Author:** @jlahire
 - **Tasks:**
