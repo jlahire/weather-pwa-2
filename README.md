@@ -81,7 +81,6 @@ See the [DEVLOG.md](DEVLOG.md) for the development process. I will make note all
 
 ## Contributing
 
-While this is primarily a personal project, I welcome forks, issues, and pull requests. Here are some ways you can contribute:
 - [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](https://github.com/yourusername/your-repo-name)
 
 [Status]: https://img.shields.io/badge/Status-Work%20in%20Progress-yellow
