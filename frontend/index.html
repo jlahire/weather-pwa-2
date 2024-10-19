@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather PWA</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="manifest" href="/manifest.json">
+
+</head>
+
+<body>
+
+    <div id="app">
+        <h1>LaHire Weather</h1>
+        <form id="weather-form">
+            <input type="text" id="zipcode" placeholder="Zipcode" required>
+            <input type="text" id="country" placeholder="Country" required>
+            <input type="number" id="period" placeholder="Days" required>
+            <button type="submit">Fetch</button>
+
+        </form>
+
+        <div id="weather-results"></div>
+        <canvas id="weather-chart"></canvas>
+    </div>
+
+    <script src="/js/app.js"></script>
+
+</body>
+
+</html>
