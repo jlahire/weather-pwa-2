@@ -584,7 +584,7 @@ WEATHER-PWA-2
 
 ### [Link to Add a Challenge](#challenges)
 ### [Challenge Title]
-[![Solution Status](https://img.shields.io/badge/Status-Solved-brightgreen)]()
+[![Solution Status](https://img.shields.io/badge/Status-statusTemplate-brightgreen)]()
 - **Date Encountered:** YYYY-MM-DD
 - **Description of the Problem:**
 - **Attempted Solutions:**
