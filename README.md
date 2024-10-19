@@ -5,11 +5,11 @@
 - [Description](#description)
 
 - [Features](#features) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#features)
-- [Code](#code) [![Status](https://img.shields.io/badge/Status-Completed-green)](#technologies-used)
+- [Code](#code) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#technologies-used)
 - [API Reference](#api) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#api)
-- [Contributing](#contributing) [![Status](https://img.shields.io/badge/Status-Completed-green)](#contributing)
-- [License](#license) [![Status](https://img.shields.io/badge/Status-Completed-green)](#license)
-- [Contact](#contact) [![Status](https://img.shields.io/badge/Status-Completed-green)](#contact)
+- [Contributing](#contributing) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#contributing)
+- [License](#license) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#license)
+- [Contact](#contact) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#contact)
 
 ## Description
 This Progressive Web App(PWA) is a revamp of a extension() of my final project for CEIS110 Intro to Programming. The project involved using noaa_sdk and matplotlib to create a simple Python program that takes zipcode, country, and start/end date as parameters to pull weather data from NOAA sensors. After completing that project I attempted to take it a step further by making a app version of it for my phone. Because I do not know or have the time to learn how to create iOS/Android apps I opted for creating a PWA knowing it can be 'added to the home screen' as a sudo app.
