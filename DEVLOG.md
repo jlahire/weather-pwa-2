@@ -20,9 +20,8 @@ See [README.md](README.md) for general project information.
 - **add Gabe**
 
 ## Overview
-```
 The purpose of this development log is to keep track of progress and allow readers to see the entire development process and what has gone into this project.
-
+```
 File Structure:
 
 WEATHER-PWA-2
