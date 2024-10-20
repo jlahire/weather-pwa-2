@@ -238,8 +238,9 @@ WEATHER-PWA-2
   3. implement asyncio in weather.py
   4. build a project timeline and plan to start working on app.js after i've finished weather.py
   5. add stuff to netlify.toml
+  6. create api branch
 - **Progress made:**
-  1. [progress]
+  1. completed 1, 6.
 - **Next steps:**
   1. [nextSteps]
 - **Comments:**
@@ -247,10 +248,19 @@ WEATHER-PWA-2
     - **Initial impressions:**
       - [impressions]
     - **Challenges faced:**
-      1. [challenge1]
-      2. [challenge2]
+      1. I added a get_weather function to weather.py. When I attempted to run it locally I got this error:
+      ```
+      {'statusCode': 500, 'body': '{"error": "Error: start and end must have format \'%Y-%m-%dT%H:%M:%SZ\' | \'%Y-%m-%d\' | \'%Y-%m-%d %H:%M:%S\'"}'}
+      ```
+      2. [challenge]
     - **Solutions found:**
-      1. [solution1]
+      1. I'm getting the statusCode 500 because my time format doesn't work with noaa api. I need to change from '%m-%d-%Y' to '%Y-%m-%d' in both my startDate and endDate variables.
+        1. After making the above changes I got a successful test.
+        ```
+        python weather.py
+        {'statusCode': 200, 'body': '{"message": " 30350, US, 7 test.", "dataLength": 148}'}
+        weather fetched successfully
+        ```
       2. [solution2]
 
 
@@ -338,7 +348,7 @@ WEATHER-PWA-2
 - **Key Takeaways:**
   1. error handling in JavaScript
   2. examples of implementing error handling
-- **How it applies to the project:** Used as a reference for implementing error handling in the weather.js file
+- **How it applies to the project:** Used as a reference for implementing error handling in the app.js file
 
 ### [Python venv Library Documentation]
 [![Read Status](https://img.shields.io/badge/Status-Skimmed-blue)]()
