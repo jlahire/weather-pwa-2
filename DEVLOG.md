@@ -1,8 +1,8 @@
 # Development Log
 
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-10--19--2024-brightgreen)](https://github.com/jlahire/weather-pwa-2/blob/main/DEVLOG.md)
-[![Project Status](https://img.shields.io/badge/Status-Still%20Building-red)](https://github.com/jlahire/weather-pwa-2)
-[![Total Hours Worked](https://img.shields.io/badge/Project%20Hours-20hrs-black)](https://github.com/jlahire/weather-pwa-2)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-10--19--2024-brightgreen)]()
+[![Project Status](https://img.shields.io/badge/Status-Still%20Building-red)]()
+[![Total Hours Worked](https://img.shields.io/badge/Project%20Hours-23hrs-black)]()
 - [Link to Current Log](#current-log)
 
 ## Table of Contents
@@ -39,6 +39,7 @@ WEATHER-PWA-2
 │   └── functions
 │       └── weather.py
 ├── DEVLOG.md
+├── netlify.toml
 ├── LICENSE.md
 ├── README.md
 └── requirements.txt
@@ -47,7 +48,7 @@ WEATHER-PWA-2
 ## Daily Logs
 [Back to Top](#table-of-contents)
 
-### [10-15-2024] [![Day Status](https://img.shields.io/badge/Status-Completed-green)]()
+### [10-15-2024] [![Day Status](https://img.shields.io/badge/Status-Completed-green)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-5%20hrs-black)]()
 - **Author:** @jlahire
 - **Tasks:**
   1. Transfer files from weather-pwa 
@@ -62,7 +63,6 @@ WEATHER-PWA-2
   2. Delete all old file contents. 
   3. Start from scratch(kinda).
 - **Comments:**
-  - **Hours Worked Today:** 5
   - **Thoughts:**
     - **Initial impressions:** 
       -  When I decided to scrap my previous project and go with a second attempt I don't think I fully planned on making this as professional and organized as I am now. I like that it is streamlined and that it's easier to navigate the README.md. In my last version of this project the README.md became more of a journal than it did a typical readme. I am excited having spent about 4-5 hours today working on getting everythin ready and organized.
@@ -71,7 +71,7 @@ WEATHER-PWA-2
     - **Solutions found:** 
       1. Spent about 1 hour today reading .md guides and then listend to a few different youtube videos that walked through documentation and organizing a devLog for tracking progress on a project.
 
-### [10-16-2024] [![Day Status](https://img.shields.io/badge/Status-Completed-green)]()
+### [10-16-2024] [![Day Status](https://img.shields.io/badge/Status-Completed-green)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-6%20hrs-black)]()
 - **Author:** @jlahire
 - **Tasks:**
   1. Keep files/file names but delete contents.
@@ -91,7 +91,6 @@ WEATHER-PWA-2
 - **Next steps:**
   1. Write app.js and weather.py (try a new approach)
 - **Comments:**
-  - **Hours Worked Today:** 6
     - **Thoughts:**
       - **Initial impressions:** 
         - Now that I've gotten the core of my file structure more aligned to what I've been reading about I feel like I have a good starting point. I went ahead and added the path for app.js to my sw.js file even though I haven't written the app.js file yet. I find myself recognizing where to put code in these files now which is refreshgin and encouraging. I still have a lot of work to do. I will spend the rest of the day looking at the old app.js/weather.py files and consider some new approaches. In my previous attempt I was definitely too focused on python. This time around I will follow the already established format instead of recreating the wheel so to speak. Also instead of being super stylish and spending a lot of ttime trying to make the GUI look nice and trendy, I decided to go with a generic, bland, GUI look and color scheme.
@@ -105,7 +104,7 @@ WEATHER-PWA-2
         3. I found that a simple MIT license will work for what I'm doing and was able to find a template on github. 
         4. I reread githubs documentaion on readme's and then googled a few examples of professional readme's before settling with the format I hvae now.
 
-### [10-17-2024] [![Day Status](https://img.shields.io/badge/Status-Completed-green)]()
+### [10-17-2024] [![Day Status](https://img.shields.io/badge/Status-Completed-green)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-5%20hrs-black)]()
 - **Author:** @jlahire
 - **Tasks:**
     1. start weather.py 
@@ -121,7 +120,6 @@ WEATHER-PWA-2
   2. continue writing app.js
   3. Figure out if I need a runtime.txt. 
 - **Comments:**
-  - **Hours Worked Today:** 5
   - **Thoughts:**
     - **Initial impressions:** 
       - Excited. I'm finding myself doing more reading and learning than I am coding.. I would probably say there is a 1:4/hr ratio right now. I read for 45 minutes and then write code for 15 before having to read more to figure out the next part. I'm loving how much more professional this version of my project is becomming. 
@@ -169,7 +167,7 @@ WEATHER-PWA-2
       ```
       4. I added the chartjs linnk to my sw.js file. And tomorrow I'll work on getting the weather.py file to dump zipcode country and period to the app.js file. 
 
-### [10-18-2024] [![Day Status](https://img.shields.io/badge/Status-Ongoing-orange)]()
+### [10-18-2024] [![Day Status](https://img.shields.io/badge/Status-Completed-green)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-4%20hrs-black)]()
 - **Author:** @jlahire
 - **Tasks:**
   1. Continue writing weather.py
@@ -186,7 +184,6 @@ WEATHER-PWA-2
   3. publish github repo
   4. write netlify.toml
 - **Comments:**
-  - **Hours Worked Today:** 4
   - **Thoughts:**
     - **Initial impressions:** 
       This is turning into a massive project. I wish I had the knowledge of js and netlify to be able to get this project up and running. I'm realizing how in my previous attempt where I just copy & pasted ideas and work arounds that I stumbled upon in forums made this entire process more difficult for me. But, I have an idea how the weather.py and app.js files need to look like and from my last attempt I know that it is better if i understand what i'm coding and why. 
@@ -198,8 +195,8 @@ WEATHER-PWA-2
       1. The scale of this project seems to be continuing to grow. Again I spent the majority of my time reading to understand what I needed to do next. The most difficult part I think is making sure the python part is all compatible with python 3.8. 
       2. The continue problem I face right now is my lack of knowledge and experience. While I've done other projects that involve multiple languages I never really learned what I was coding but instaed wrote what I was instructed or advised to write. I'm not losing hope though. Each day I find myself understading just a little bit more than the day before.
       3. I can't do anything about the lack of time. I wish I could spend 10 hours a day 5 days a week working on this project but even the 20 hours I've put in over the past few days has taken a toll on my normal day-to-day. The light at the end of the tunnel here is my documentation. With how i'm documenting this development process it will be easier for me to pick up where I left off last. Still, I need to be more detail oriented with my progress and once I init my repo i'll begin using branches as I finish building weather.py and app.js. With this I will start doing 1-2 hours of work every other day so that I don't get burnt out working on this but also so I can have a better balance.
-## Current Log
-### [10-19-2024] [![Day Status](https://img.shields.io/badge/Status-Ongoing-orange)]()
+
+### [10-19-2024] [![Day Status](https://img.shields.io/badge/Status-Completed-green)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-3%20hrs-black)]()
 - **Author:** @jlahire
 - **Tasks:**
   1. Continue work on weather.py and app.js
@@ -208,12 +205,44 @@ WEATHER-PWA-2
   4. write netlify.toml
   5. clean up README.md and DEVLOG.md
 - **Progress made:**
+  1. completed 1-ish, 2, 3, 4-ish, 5
+- **Next steps:**
+  1. start get_weather function in weather.py
+  2. start headers in weather.py
+  3. implement asyncio in weather.py
+  4. build a project timeline and plan to start working on app.js after i've finished weather.py
+  5. add stuff to netlify.toml
+- **Comments:**
+  - **Thoughts:**
+    - **Initial impressions:**
+      - Accomplished. So I do not know very much about json as most of my experience with it has been copy&paste/edit, but I had a successful local test today of my weather.py file using json. Here was my output:
+      ```
+      PS D:\Code Stuff\Python\Projects\PWA-Projects\weather-pwa-2\netlify\functions> python weather.py
+      {'statusCode': 200, 'body': '{"message": " 30350, US, 14 test."}'}
+      it works!
+      ```
+      - It felt good being able to put this together. I realize that my file doens't have the clean look like all the examples I've read about but I don't really understand how to space out my code like the examples. I think this is because I'm so used to writing in python. I will explore cleaning up the code later once I've got a better "handle" on the file. (that was a programmer joke..i think..)
+    - **Challenges faced:**
+      1. How do I avoid making the same mistake as before by changing a ton of code and not being able to go back.
+      2. Writing a handler function.
+    - **Solutions found:**
+      1. Read up on git branches and how to merge. I will make a branch for each part of the project and as they work i'll merge with master branch. rinse&repeat. 
+      2. I've built functions for projects before but outside of my first attempt I haven't actually written a handler function. This time i'm building it in parts and testing each part so I don't get confused.
+
+## Current Log
+### [10-20-2024] [![Day Status](https://img.shields.io/badge/Status-Ongoing-orange)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-0%20hrs-black)]()
+- **Author:** @jlahire
+- **Tasks:**
+  1. start get_weather function in weather.py
+  2. start headers in weather.py
+  3. implement asyncio in weather.py
+  4. build a project timeline and plan to start working on app.js after i've finished weather.py
+  5. add stuff to netlify.toml
+- **Progress made:**
   1. [progress]
 - **Next steps:**
   1. [nextSteps]
 - **Comments:**
-  - **Hours Worked:** 
-  - **Total Hours:**
   - **Thoughts:**
     - **Initial impressions:**
       - [impressions]
@@ -223,6 +252,7 @@ WEATHER-PWA-2
     - **Solutions found:**
       1. [solution1]
       2. [solution2]
+
 
 ## Challenges
 [Back to Top](#table-of-contents)
@@ -562,7 +592,7 @@ WEATHER-PWA-2
     - *Noteworthy Aspects:* Any particularly noteworthy aspects of their contribution
 
 ### [Link to Add a Daily Log](#daily-logs)
-### [MM-DD-YYYY] [![Day Status](https://img.shields.io/badge/Status-statusTemplate-green)]()
+### [MM-DD-YYYY] [![Day Status](https://img.shields.io/badge/Status-statusTemplate-green)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-0%20hrs-black)]()
 - **Author:** @devName
 - **Tasks:**
 
@@ -571,8 +601,6 @@ WEATHER-PWA-2
 - **Next steps:**
   1. [nextSteps]
 - **Comments:**
-  - **Hours Worked:** 
-  - **Total Hours:**
   - **Thoughts:**
     - **Initial impressions:**
       - [impressions]

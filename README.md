@@ -5,14 +5,15 @@
 - [Description](#description)
 
 - [Features](#features) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#features)
-- [Code](#code) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#technologies-used)
+- [Code](#code) [![Status](https://img.shields.io/badge/Status-Completed-green)](#technologies-used)
+- [Code](#code) [![Status](https://img.shields.io/badge/Status-Completed-green)](#code)
 - [API Reference](#api) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#api)
 - [Contributing](#contributing) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#contributing)
 - [License](#license) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#license)
 - [Contact](#contact) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#contact)
 
 ## Description
-This Progressive Web App(PWA) is a revamp of a extension() of my final project for CEIS110 Intro to Programming. The project involved using noaa_sdk and matplotlib to create a simple Python program that takes zipcode, country, and start/end date as parameters to pull weather data from NOAA sensors. After completing that project I attempted to take it a step further by making a app version of it for my phone. Because I do not know or have the time to learn how to create iOS/Android apps I opted for creating a PWA knowing it can be 'added to the home screen' as a sudo app.
+This Progressive Web App(PWA) is a revamp of a extension of my final project for CEIS110 Intro to Programming. The project involved using noaa_sdk and matplotlib to create a simple Python program that takes zipcode, country, and start/end date as parameters to pull weather data from NOAA sensors. After completing that project I attempted to take it a step further by making a app version of it for my phone. Because I do not know or have the time to learn how to create iOS/Android apps I opted for creating a PWA knowing it can be 'added to the home screen' as a sudo app.
 
 My first attempt at this project got really complicated and I made the mistake of making changes to code without really keeping track of changes or documenting in the code. I think the part that really messed up the first attempt was that I took bits and pieces of code from suggestions online and just threw them into my code to try and resolve build issues. 
 
@@ -21,7 +22,7 @@ For this attempt I spent about 8 hours reading/watching all the recources in [Do
 See the [DEVLOG.md](DEVLOG.md) for the development process. I will make note all challenges and solutions found as well as all the people, documents and resources that helped me get this project started and running.
 
 ## Features
-- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](https://github.com/yourusername/your-repo-name)
+- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
 
 [Status]: https://img.shields.io/badge/Status-Work%20in%20Progress-yellow
 
@@ -75,31 +76,33 @@ See the [DEVLOG.md](DEVLOG.md) for the development process. I will make note all
 
 
 ## API
-- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](https://github.com/yourusername/your-repo-name)
+- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
 
 [Status]: https://img.shields.io/badge/Status-Work%20in%20Progress-yellow
 
 ## Contributing
 
-- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](https://github.com/yourusername/your-repo-name)
+- [![Status](https://img.shields.io/badge/Status-Completed-green)](https://github.com/yourusername/your-repo-name)
+While this is primarily a personal project, I welcome forks, issues, and pull requests. Here are some ways you can contribute:
+- [![Status](https://img.shields.io/badge/Status-Completed-green)]()
 
 [Status]: https://img.shields.io/badge/Status-Work%20in%20Progress-yellow
 
 ### Forking the Project
 
-- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](https://github.com/yourusername/your-repo-name)
+- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
 
 [Status]: https://img.shields.io/badge/Status-Work%20in%20Progress-yellow
 
 ### Reporting Issues
 
-- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](https://github.com/yourusername/your-repo-name)
+- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
 
 [Status]: https://img.shields.io/badge/Status-Work%20in%20Progress-yellow
 
 ### Pull Requests
 
-- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](https://github.com/yourusername/your-repo-name)
+- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
 
 [Status]: https://img.shields.io/badge/Status-Work%20in%20Progress-yellow
 
@@ -110,7 +113,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Contact
 
-- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](https://github.com/yourusername/your-repo-name)
+- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
 
 [Status]: https://img.shields.io/badge/Status-Work%20in%20Progress-yellow
 
