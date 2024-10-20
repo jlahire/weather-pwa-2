@@ -5,7 +5,7 @@
 - [Description](#description)
 
 - [Features](#features) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#features)
-- [Code](#code) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#technologies-used)
+- [Code](#code) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#code)
 - [API Reference](#api) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#api)
 - [Contributing](#contributing) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#contributing)
 - [License](#license) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#license)
