@@ -21,7 +21,7 @@ For this attempt I spent about 8 hours reading/watching all the recources in [Do
 See the [DEVLOG.md](DEVLOG.md) for the development process. I will make note all challenges and solutions found as well as all the people, documents and resources that helped me get this project started and running.
 
 ## Features
-- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](https://github.com/yourusername/your-repo-name)
+- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
 
 [Status]: https://img.shields.io/badge/Status-Work%20in%20Progress-yellow
 
@@ -75,32 +75,32 @@ See the [DEVLOG.md](DEVLOG.md) for the development process. I will make note all
 
 
 ## API
-- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](https://github.com/yourusername/your-repo-name)
+- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
 
 [Status]: https://img.shields.io/badge/Status-Work%20in%20Progress-yellow
 
 ## Contributing
 
 While this is primarily a personal project, I welcome forks, issues, and pull requests. Here are some ways you can contribute:
-- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](https://github.com/yourusername/your-repo-name)
+- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
 
 [Status]: https://img.shields.io/badge/Status-Work%20in%20Progress-yellow
 
 ### Forking the Project
 
-- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](https://github.com/yourusername/your-repo-name)
+- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
 
 [Status]: https://img.shields.io/badge/Status-Work%20in%20Progress-yellow
 
 ### Reporting Issues
 
-- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](https://github.com/yourusername/your-repo-name)
+- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
 
 [Status]: https://img.shields.io/badge/Status-Work%20in%20Progress-yellow
 
 ### Pull Requests
 
-- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](https://github.com/yourusername/your-repo-name)
+- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
 
 [Status]: https://img.shields.io/badge/Status-Work%20in%20Progress-yellow
 
@@ -111,7 +111,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Contact
 
-- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](https://github.com/yourusername/your-repo-name)
+- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
 
 [Status]: https://img.shields.io/badge/Status-Work%20in%20Progress-yellow
 
