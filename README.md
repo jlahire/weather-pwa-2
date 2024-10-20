@@ -5,7 +5,8 @@
 - [Description](#description)
 
 - [Features](#features) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#features)
-- [Code](#code) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#code)
+- [Code](#code) [![Status](https://img.shields.io/badge/Status-Completed-green)](#technologies-used)
+- [Code](#code) [![Status](https://img.shields.io/badge/Status-Completed-green)](#code)
 - [API Reference](#api) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#api)
 - [Contributing](#contributing) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#contributing)
 - [License](#license) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#license)
@@ -81,8 +82,9 @@ See the [DEVLOG.md](DEVLOG.md) for the development process. I will make note all
 
 ## Contributing
 
+- [![Status](https://img.shields.io/badge/Status-Completed-green)](https://github.com/yourusername/your-repo-name)
 While this is primarily a personal project, I welcome forks, issues, and pull requests. Here are some ways you can contribute:
-- [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
+- [![Status](https://img.shields.io/badge/Status-Completed-green)]()
 
 [Status]: https://img.shields.io/badge/Status-Work%20in%20Progress-yellow
 
