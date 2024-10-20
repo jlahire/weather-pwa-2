@@ -2,7 +2,7 @@
 
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-10--19--2024-brightgreen)]()
 [![Project Status](https://img.shields.io/badge/Status-Still%20Building-red)]()
-[![Total Hours Worked](https://img.shields.io/badge/Project%20Hours-23hrs-black)]()
+[![Total Hours Worked](https://img.shields.io/badge/Project%20Hours-25hrs-black)]()
 - [Link to Current Log](#current-log)
 
 ## Table of Contents
@@ -229,8 +229,8 @@ WEATHER-PWA-2
       1. Read up on git branches and how to merge. I will make a branch for each part of the project and as they work i'll merge with master branch. rinse&repeat. 
       2. I've built functions for projects before but outside of my first attempt I haven't actually written a handler function. This time i'm building it in parts and testing each part so I don't get confused.
 
-## Current Log
-### [10-20-2024] [![Day Status](https://img.shields.io/badge/Status-Ongoing-orange)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-0%20hrs-black)]()
+
+### [10-20-2024] [![Day Status](https://img.shields.io/badge/Status-Completed-green)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-2%20hrs-black)]()
 - **Author:** @jlahire
 - **Tasks:**
   1. start get_weather function in weather.py
@@ -242,27 +242,52 @@ WEATHER-PWA-2
 - **Progress made:**
   1. completed 1, 6.
 - **Next steps:**
+  1. implement asyncio for get_weather and handler functions
+  2. start headers in weather.py
+  3. build a project timeline and plan to start working on app.js after i've finished weather.py
+  4. add stuff to netlify.toml
+- **Comments:**
+  - **Thoughts:**
+    - **Initial impressions:**
+      - I feel much better only comitting 2 hrs today to this project. It allows me to prioritize other things and keeps my goals for the day acheivable. It felt very good to be able to debug my get_weather function. I am definitely noticing that I can dissect my errors much easier than before and find myself going back to the [documents](#documents) and my web [recources](#web-resources) to find answers instead of google. I do look forward to seeing how far I can get in my weather.py file tomorrow.
+    - **Challenges faced:**
+      1. I added a get_weather function to weather.py. When I attempted to run it locally I got this error:
+      ```
+      {'statusCode': 500, 'body': '{"error": "Error: start and end must have format \'%Y-%m-%dT%H:%M:%SZ\' | \'%Y-%m-%d\' | \'%Y-%m-%d %H:%M:%S\'"}'}
+      ```
+      2. Not enough time. 
+    - **Solutions found:**
+      1. I'm getting the statusCode 500 because my time format doesn't work with noaa api. I need to change from '%m-%d-%Y' to '%Y-%m-%d' in both my startDate and endDate variables.
+          1. After making the above changes I got a successful test.
+          ```
+          python weather.py
+          {'statusCode': 200, 'body': '{"message": " 30350, US, 7 test.", "dataLength": 148}'}
+          weather fetched successfully
+          ```
+      2. Because I'm limiting myself to only working 2 hours it really forces me to be very productive with the time I'm allotting myself. I want to work more because I'm on a roll. Tomorrow I will be off from work so I will allow 2-6 hrs of work and try to get the weather.py file completed/tested/committed and merged with the master branch. 
+
+## Current Log
+### [10-21-2024] [![Day Status](https://img.shields.io/badge/Status-Ongoing-orange)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-0%20hrs-black)]()
+- **Author:** @jlahire
+- **Tasks:**
+  1. implement asyncio for get_weather and handler functions
+  2. start headers in weather.py
+  3. build a project timeline and plan to start working on app.js after i've finished weather.py
+  4. add stuff to netlify.toml
+- **Progress made:**
+  1. [progress]
+- **Next steps:**
   1. [nextSteps]
 - **Comments:**
   - **Thoughts:**
     - **Initial impressions:**
       - [impressions]
     - **Challenges faced:**
-      1. I added a get_weather function to weather.py. When I attempted to run it locally I got this error:
-      ```
-      {'statusCode': 500, 'body': '{"error": "Error: start and end must have format \'%Y-%m-%dT%H:%M:%SZ\' | \'%Y-%m-%d\' | \'%Y-%m-%d %H:%M:%S\'"}'}
-      ```
-      2. [challenge]
+      1. [challenge1]
+      2. [challenge2]
     - **Solutions found:**
-      1. I'm getting the statusCode 500 because my time format doesn't work with noaa api. I need to change from '%m-%d-%Y' to '%Y-%m-%d' in both my startDate and endDate variables.
-        1. After making the above changes I got a successful test.
-        ```
-        python weather.py
-        {'statusCode': 200, 'body': '{"message": " 30350, US, 7 test.", "dataLength": 148}'}
-        weather fetched successfully
-        ```
+      1. [solution1]
       2. [solution2]
-
 
 ## Challenges
 [Back to Top](#table-of-contents)
