@@ -3,12 +3,12 @@ from datetime import datetime, timedelta
 from noaa_sdk import NOAA
 import asyncio
 
-def get_weather(zipcode, country, period):
+async def get_weather(zipcode, country, period):
     #timeframe
     endDate = datetime.now() #today
     startDate = endDate - timedelta(days=period)
     n = NOAA()
-    obs = n.get_observations(zipcode, country, start=startDate.strftime('%Y-%m-%d'), end=endDate.strftime('%Y-%m-%d'))
+    obs = await asyncio.to_thread(n.get_observations(zipcode, country, start=startDate.strftime('%Y-%m-%d'), end=endDate.strftime('%Y-%m-%d')))
     
     temp = []
     humidity = []

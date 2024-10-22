@@ -275,7 +275,8 @@ WEATHER-PWA-2
   3. build a project timeline and plan to start working on app.js after i've finished weather.py
   4. add stuff to netlify.toml
 - **Progress made:**
-  1. [progress]
+  1. I added more to the get_weather funciton and then tested it locally.
+  2. Added async to get_weather and wrote obs to asyncio.to_thread().
 - **Next steps:**
   1. [nextSteps]
 - **Comments:**
