@@ -267,7 +267,7 @@ WEATHER-PWA-2
       2. Because I'm limiting myself to only working 2 hours it really forces me to be very productive with the time I'm allotting myself. I want to work more because I'm on a roll. Tomorrow I will be off from work so I will allow 2-6 hrs of work and try to get the weather.py file completed/tested/committed and merged with the master branch. 
 
 ## Current Log
-### [10-21-2024] [![Day Status](https://img.shields.io/badge/Status-Ongoing-orange)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-0%20hrs-black)]()
+### [10-21-2024] [![Day Status](https://img.shields.io/badge/Status-Ongoing-orange)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-2%20hrs-black)]()
 - **Author:** @jlahire
 - **Tasks:**
   1. implement asyncio for get_weather and handler functions
