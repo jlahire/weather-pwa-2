@@ -2,7 +2,7 @@
 
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-10--19--2024-brightgreen)]()
 [![Project Status](https://img.shields.io/badge/Status-Still%20Building-red)]()
-[![Total Hours Worked](https://img.shields.io/badge/Project%20Hours-25hrs-black)]()
+[![Total Hours Worked](https://img.shields.io/badge/Project%20Hours-28hrs-black)]()
 - [Link to Current Log](#current-log)
 
 ## Table of Contents
