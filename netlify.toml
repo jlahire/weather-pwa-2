@@ -1,5 +1,22 @@
 [build]
+  publish = "frontend"
+  functions = "netlify/functions"
 
 [functions]
+  directory = "netlify/functions"
+
+[functions."weather"]
+  runtime = "python3.8"
 
 [[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Type = "application/json"
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Headers = "Content-Type"
+    Access-Control-Allow-Methods = "GET, POST, OPTIONS"
