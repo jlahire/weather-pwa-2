@@ -2,7 +2,7 @@
 
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-10--19--2024-brightgreen)]()
 [![Project Status](https://img.shields.io/badge/Status-Still%20Building-red)]()
-[![Total Hours Worked](https://img.shields.io/badge/Project%20Hours-28hrs-black)]()
+[![Total Hours Worked](https://img.shields.io/badge/Project%20Hours-30hrs-black)]()
 - [Link to Current Log](#current-log)
 
 ## Table of Contents
@@ -280,8 +280,8 @@ WEATHER-PWA-2
   Weather fetched and processed successfully
   ```
 
-## Current Log
-### [MM-DD-YYYY] [![Day Status](https://img.shields.io/badge/Status-Ongoing-yellow)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-0%20hrs-black)]()
+
+### [10-22-2024] [![Day Status](https://img.shields.io/badge/Status-Completed-green)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-2%20hrs-black)]()
 - **Author:** @jlahire
 - **Tasks:**
   1. start headers in weather.py
@@ -291,6 +291,31 @@ WEATHER-PWA-2
   5. add stuff to netlify.toml
 - **Progress made:**
   1. added a lambda_handler to my weather.py file so netlify can use it.
+  2. added generic build, redirect, and function commands to the .toml. Then I added a runtime for weather.py specifying python3.8, and I added my headers here instead of in weather.py. Not sure if Netlify will like headers here but we will see.
+  3. I commented out the async test but kept the code incase I need to troubleshoot down the road.
+- **Next steps:**
+  1. recheck .toml
+  2. review weather.py
+  3. start app.js
+  4. build a project timeline
+- **Comments:**
+  - Today I hit the 30hr mark for this project. I am surprised that I've spent this much time working on it but I definitely notice that the time invested has produced results. Today I was able to breifly check the [Netlify](#netlify-config-documentation) config documentation for what to add to the .toml file and then went and added it. I am definitely gambling a little bit by adding the runtime there instead of making a runtime.txt file like I did on the last version of this project. If the headers don't work there I'll add them to the weather.py file as a function. I think as a hobby programmer I am definitely maybe feeling more confident. 
+- **Challenges faced:**
+  1. This was a pretty straight forward addition to the project. lambda_handler/runtime/headers/.toml. 
+- **Solutions found:**
+  1. I know that I won't have many days like today where the code just seems to fit and doesn't mess up the file but this was nice. I won't be able to check my .toml file until I attempt the deploy with netlify so fingers crossed. 
+
+
+## Current Log
+### [MM-DD-YYYY] [![Day Status](https://img.shields.io/badge/Status-Untouched-red)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-0%20hrs-black)]()
+- **Author:** @devName
+- **Tasks:**
+  1. recheck .toml
+  2. review weather.py
+  3. start app.js
+  4. build a project timeline
+- **Progress made:**
+  1. [progress]
 - **Next steps:**
   1. [nextSteps]
 - **Comments:**
