@@ -55,6 +55,11 @@ async def handler(event, context):
     except Exception as e:
         return {'statusCode': 500, 'body': json.dumps({'error': str(e)})}
 
+def lambda_handler(event, context):
+    return asyncio.run(handler(event, context))
+
+
+
 #async test 
 async def test():
     test_event = {'weatherStuff': {'zipcode': '30350', 'country': 'US', 'period': '7'}}

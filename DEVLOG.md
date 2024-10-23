@@ -281,8 +281,8 @@ WEATHER-PWA-2
   ```
 
 ## Current Log
-### [MM-DD-YYYY] [![Day Status](https://img.shields.io/badge/Status-Untouched-red)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-0%20hrs-black)]()
-- **Author:** @devName
+### [MM-DD-YYYY] [![Day Status](https://img.shields.io/badge/Status-Ongoing-yellow)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-0%20hrs-black)]()
+- **Author:** @jlahire
 - **Tasks:**
   1. start headers in weather.py
   2. finish weather.py
@@ -290,7 +290,7 @@ WEATHER-PWA-2
   4. start working on app.js after i've finished weather.py
   5. add stuff to netlify.toml
 - **Progress made:**
-  1. [progress]
+  1. added a lambda_handler to my weather.py file so netlify can use it.
 - **Next steps:**
   1. [nextSteps]
 - **Comments:**
