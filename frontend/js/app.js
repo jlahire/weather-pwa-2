@@ -19,5 +19,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+function createChart(temperatureData, humidityData){
 
-console.log("test #1");
+
+
+}
+
+console.log("test #4");

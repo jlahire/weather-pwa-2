@@ -13,7 +13,7 @@ async def get_weather(zipcode, country, period):
     temp = []
     humidity = []
     descriptions = []
-
+    
     #throwing in 'is not None' and 'if -- else None' statements to prevent ValueErrors
     for o in obs:
         if o['temperature']['value'] is not None:
@@ -28,7 +28,9 @@ async def get_weather(zipcode, country, period):
     wText += f"Timeframe: {startDate.strftime('%Y-%m-%d')} to {endDate.strftime('%Y-%m-%d')}.\n"
     wText += f"The highest temperature was: {hTemp:.2f}°C\n" if hTemp is not None else "The highest temperature was not recorded.\n"
     wText += f"The lowest temperature was: {lTemp:.2f}°C\n" if lTemp is not None else "The lowest temperature was not recorded.\n"
-    #add more weather stuff here eventually
+    # add a for loop 
+    # * 9/5) + 32 <- formula for celcius to farenheit °F
+    # add more weather stuff here eventually
     wText += "Recent NOAA observations:\n"
     wText += "\n".join(descriptions[-5])
 
@@ -62,11 +64,11 @@ def lambda_handler(event, context):
 
 #async test 
 #async def test():
-    test_event = {'weatherStuff': {'zipcode': '30350', 'country': 'US', 'period': '7'}}
-    result = await handler(test_event, {})
-    print(result)
-    assert result['statusCode'] == 200
-    assert 'weatherData' in json.loads(result['body'])#['dataLength'] > 0
-    print('Weather fetched and processed successfully')
+#    test_event = {'weatherStuff': {'zipcode': '30350', 'country': 'US', 'period': '7'}}
+#    result = await handler(test_event, {})
+#    print(result)
+#    assert result['statusCode'] == 200
+#    assert 'weatherData' in json.loads(result['body'])#['dataLength'] > 0
+#    print('Weather fetched and processed successfully')
 
 #asyncio.run(test())
