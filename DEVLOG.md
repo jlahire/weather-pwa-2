@@ -1,8 +1,8 @@
 # Development Log
 
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-10--19--2024-brightgreen)]()
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-10--30--2024-brightgreen)]()
 [![Project Status](https://img.shields.io/badge/Status-Still%20Building-red)]()
-[![Total Hours Worked](https://img.shields.io/badge/Project%20Hours-30hrs-black)]()
+[![Total Hours Worked](https://img.shields.io/badge/Project%20Hours-33.5hrs-black)]()
 - [Link to Current Log](#current-log)
 
 ## Table of Contents
@@ -305,15 +305,29 @@ WEATHER-PWA-2
 - **Solutions found:**
   1. I know that I won't have many days like today where the code just seems to fit and doesn't mess up the file but this was nice. I won't be able to check my .toml file until I attempt the deploy with netlify so fingers crossed. 
 
-
-## Current Log
-### [MM-DD-YYYY] [![Day Status](https://img.shields.io/badge/Status-Untouched-red)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-0%20hrs-black)]()
-- **Author:** @devName
+### [10-30-2024] [![Day Status](https://img.shields.io/badge/Status-Complete-green)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-3.5%20hrs-black)]()
+- **Author:** @jlahire
 - **Tasks:**
   1. recheck .toml
   2. review weather.py
   3. start app.js
   4. build a project timeline
+- **Progress made:**
+  1. So I kind of followed the format for making a API call in .js. I made sure everything matched the weather.py file and did my best to match the .py handler format. I addedsome error handling like I did in my previous attempt and threw in a few console logs to make it easier to idenfiy if theres an issue. Local test worked kinda. Turns out I need to change a lot of the app.js file, .html file, and the weather.py file to run locally because i've written it so far to be published.
+- **Next steps:**
+  1. Sidelining all the current next steps to dedicate my next work session to getting everything set up to be tested locally. 
+- **Comments:**
+  - I realized today when I attempted to test the functions locally in my browser I was unable to due to writing it as 'POST'and not 'GET'. It is more complicated than that obviously. I've decided to change my code around to be tested locally and once it is successful locally I'll convert everything to be published. Mainly I'm doing this for the practice and for the experience.
+- **Challenges faced:**
+  1. unable to test locally
+- **Solutions found:**
+  1. need to rewrite files to be able to test locally
+
+## Current Log
+### [MM-DD-YYYY] [![Day Status](https://img.shields.io/badge/Status-Untouched-red)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-0%20hrs-black)]()
+- **Author:** @devName
+- **Tasks:**
+  1. set up files to be tested locally
 - **Progress made:**
   1. [progress]
 - **Next steps:**
@@ -326,7 +340,6 @@ WEATHER-PWA-2
 - **Solutions found:**
   1. [solution1]
   2. [solution2]
-
 ## Challenges
 [Back to Top](#table-of-contents)
 
