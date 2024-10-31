@@ -1,8 +1,8 @@
 # Development Log
 
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-10--19--2024-brightgreen)]()
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-10--30--2024-brightgreen)]()
 [![Project Status](https://img.shields.io/badge/Status-Still%20Building-red)]()
-[![Total Hours Worked](https://img.shields.io/badge/Project%20Hours-30hrs-black)]()
+[![Total Hours Worked](https://img.shields.io/badge/Project%20Hours-32hrs-black)]()
 - [Link to Current Log](#current-log)
 
 ## Table of Contents
@@ -307,15 +307,15 @@ WEATHER-PWA-2
 
 
 ## Current Log
-### [MM-DD-YYYY] [![Day Status](https://img.shields.io/badge/Status-Untouched-red)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-0%20hrs-black)]()
-- **Author:** @devName
+### [10-30-2024] [![Day Status](https://img.shields.io/badge/Status-Ongoing-yellow)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-2%20hrs-black)]()
+- **Author:** @jlahire
 - **Tasks:**
   1. recheck .toml
   2. review weather.py
   3. start app.js
   4. build a project timeline
 - **Progress made:**
-  1. [progress]
+  1. So I kind of followed the format for making a API call in .js. I made sure everything matched the weather.py file and did my best to match the .py handler format. I addedsome error handling like I did in my previous attempt and threw in a few console logs to make it easier to idenfiy if theres an issue.
 - **Next steps:**
   1. [nextSteps]
 - **Comments:**
