@@ -335,7 +335,7 @@ WEATHER-PWA-2
   2. Wrote a index.html file 
   3. used flask in test-weather.py to quickly get a test server running
   4. Got local test working
-  ![Local test:](local-test-success.png)
+  ![Local test:](images\local-test-success.png)
 - **Next steps:**
   1. recheck .toml
   2. review weather.py
