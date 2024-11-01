@@ -304,6 +304,25 @@ WEATHER-PWA-2
 - **Solutions found:**
   1. I know that I won't have many days like today where the code just seems to fit and doesn't mess up the file but this was nice. I won't be able to check my .toml file until I attempt the deploy with netlify so fingers crossed. 
 
+### [10-23-2024] [![Day Status](https://img.shields.io/badge/Status-Completed-green)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-.5%20hrs-black)]()
+- **Author:** @jlahire
+- **Tasks:**
+  1. recheck .toml
+  2. review weather.py
+  3. continue app.js
+  4. build a project timeline
+  5. check index.html
+- **Progress made:**
+  1. I created a new branch 'app.js api' and started to build the api call in app.js today. Checked my .toml file to make sure the api call directs to netlify/functions. Checked index.html to make sure i'm using the same form format that i put there. Checked to make sure I'm using the same names in both weather.py and app.js. 
+- **Next steps:**
+  1. build a project timeline
+- **Comments:**
+  - This was a branch I created and only really got 30min-1hr of work done and completely forgot to merge with master branch. I noticed it on 11-1-2024 when I was cleaning up my repository and checking to make sure everything is up to date.
+- **Challenges faced:**
+  1. Not sure exactly how my .js code is supposed to look.
+- **Solutions found:**
+  1. Will revisit once I have time to clean up the code.
+
 ### [10-30-2024] [![Day Status](https://img.shields.io/badge/Status-Complete-green)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-3.5%20hrs-black)]()
 - **Author:** @jlahire
 - **Tasks:**
@@ -354,26 +373,23 @@ WEATHER-PWA-2
 
 
 ## Current Log
-### [10-23-2024] [![Day Status](https://img.shields.io/badge/Status-Ongoing-yellow)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-1%20hrs-black)]()
-- **Author:** @jlahire
+### [MM-DD-YYYY] [![Day Status](https://img.shields.io/badge/Status-Untouched-red)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-0%20hrs-black)]()
+- **Author:** @devName
 - **Tasks:**
-  1. recheck .toml
-  2. review weather.py
-  3. continue app.js
-  4. build a project timeline
-  5. check index.html
+1. build a project timeline
+2. convert DEVLOG.md to GitHub wiki pages
+3. explore making repo a github project for better progress tracking
 - **Progress made:**
-  1. I created a new branch 'app.js api' and started to build the api call in app.js today. Checked my .toml file to make sure the api call directs to netlify/functions. Checked index.html to make sure i'm using the same form format that i put there. Checked to make sure I'm using the same names in both weather.py and app.js. 
-  2. [progress]
+  1. [progress]
 - **Next steps:**
-  1. build a project timeline
+  1. [nextSteps]
 - **Comments:**
   - [comments]
 - **Challenges faced:**
-  1. Not sure exactly how my .js code is supposed to look.
+  1. [challenge1]
   2. [challenge2]
 - **Solutions found:**
-  1. Will revisit once I have time to clean up the code.
+  1. [solution1]
   2. [solution2]
 
 ## Challenges
