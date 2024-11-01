@@ -1,8 +1,8 @@
 # Development Log
 
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-10--19--2024-brightgreen)]()
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-11--1--2024-brightgreen)]()
 [![Project Status](https://img.shields.io/badge/Status-Still%20Building-red)]()
-[![Total Hours Worked](https://img.shields.io/badge/Project%20Hours-31hrs-black)]()
+[![Total Hours Worked](https://img.shields.io/badge/Project%20Hours-37.5hrs-black)]()
 - [Link to Current Log](#current-log)
 
 ## Table of Contents
@@ -246,7 +246,6 @@ WEATHER-PWA-2
   2. Not enough time. 
 - **Solutions found:**
   1. I'm getting the statusCode 500 because my time format doesn't work with noaa api. I need to change from '%m-%d-%Y' to '%Y-%m-%d' in both my startDate and endDate variables.
-      1. After making the above changes I got a successful test.
       ```
       python weather.py
       {'statusCode': 200, 'body': '{"message": " 30350, US, 7 test.", "dataLength": 148}'}
@@ -305,6 +304,54 @@ WEATHER-PWA-2
 - **Solutions found:**
   1. I know that I won't have many days like today where the code just seems to fit and doesn't mess up the file but this was nice. I won't be able to check my .toml file until I attempt the deploy with netlify so fingers crossed. 
 
+### [10-30-2024] [![Day Status](https://img.shields.io/badge/Status-Complete-green)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-3.5%20hrs-black)]()
+- **Author:** @jlahire
+- **Tasks:**
+  1. recheck .toml
+  2. review weather.py
+  3. start app.js
+  4. build a project timeline
+- **Progress made:**
+  1. So I kind of followed the format for making a API call in .js. I made sure everything matched the weather.py file and did my best to match the .py handler format. I addedsome error handling like I did in my previous attempt and threw in a few console logs to make it easier to idenfiy if theres an issue. Local test worked kinda. Turns out I need to change a lot of the app.js file, .html file, and the weather.py file to run locally because i've written it so far to be published.
+- **Next steps:**
+  1. Sidelining all the current next steps to dedicate my next work session to getting everything set up to be tested locally. 
+- **Comments:**
+  - I realized today when I attempted to test the functions locally in my browser I was unable to due to writing it as 'POST'and not 'GET'. It is more complicated than that obviously. I've decided to change my code around to be tested locally and once it is successful locally I'll convert everything to be published. Mainly I'm doing this for the practice and for the experience.
+- **Challenges faced:**
+  1. unable to test locally
+- **Solutions found:**
+  1. need to rewrite files to be able to test locally
+
+### [11-01-2024] [![Day Status](https://img.shields.io/badge/Status-Completed-green)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-4%20hrs-black)]()
+- **Author:** @jlahire
+- **Tasks:**
+  1. Create test-frontend folder for testing locally
+  2. Write python test file(no asyncio)
+  3. write app.js test file
+  4. Test local setup
+- **Progress made:**
+  1. Created a folder called test-frontend and added css/js folders
+  2. Wrote a index.html file 
+  3. used flask in test-weather.py to quickly get a test server running
+  4. Got local test working
+  ![Local test:](images/local-test-success.png)
+- **Next steps:**
+  1. recheck .toml
+  2. review weather.py
+  3. continue app.js
+  4. build a project timeline
+- **Comments:**
+  - I spent a lot of time today reading about Flask vs my Netlify setup. Flask seems like a better choice because I can see the changes I make right away instead of having to deploy to netlify every time I want to test something.
+- **Challenges faced:**
+  1. Wasn't sure how much of weather.py I needed to copy over
+  2. CORs is annoying and gave me issues with local testing
+  3. Had to figure out how to match my weather.py responses in Flask
+- **Solutions found:**
+  1. After reading the Flask docs I realized I could just make a simple version that does the core stuff
+  2. Found flask-cors which was really easy to add
+  3. Made the test responses simpler but kept the same data structure so the frontend still works
+
+
 
 ## Current Log
 ### [10-23-2024] [![Day Status](https://img.shields.io/badge/Status-Ongoing-yellow)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-1%20hrs-black)]()
@@ -312,7 +359,7 @@ WEATHER-PWA-2
 - **Tasks:**
   1. recheck .toml
   2. review weather.py
-  3. start app.js
+  3. continue app.js
   4. build a project timeline
   5. check index.html
 - **Progress made:**
@@ -663,11 +710,9 @@ WEATHER-PWA-2
   - *Impact:* How their contribution impacted the project
 - **Comments:** 
   - *Thoughts:*
-    - *Appreciation:* Express gratitude and appreciation
-    - *Noteworthy Aspects:* Any particularly noteworthy aspects of their contribution
 
 ### [Link to Add a Daily Log](#daily-logs)
-### [MM-DD-YYYY] [![Day Status](https://img.shields.io/badge/Status-statusTemplate-green)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-0%20hrs-black)]()
+### [MM-DD-YYYY] [![Day Status](https://img.shields.io/badge/Status-Untouched-red)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-0%20hrs-black)]()
 - **Author:** @devName
 - **Tasks:**
 
