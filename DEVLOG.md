@@ -1,8 +1,8 @@
 # Development Log
 
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-10--30--2024-brightgreen)]()
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-11--1--2024-brightgreen)]()
 [![Project Status](https://img.shields.io/badge/Status-Still%20Building-red)]()
-[![Total Hours Worked](https://img.shields.io/badge/Project%20Hours-33.5hrs-black)]()
+[![Total Hours Worked](https://img.shields.io/badge/Project%20Hours-37.5hrs-black)]()
 - [Link to Current Log](#current-log)
 
 ## Table of Contents
