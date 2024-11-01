@@ -323,11 +323,42 @@ WEATHER-PWA-2
 - **Solutions found:**
   1. need to rewrite files to be able to test locally
 
+### [11-01-2024] [![Day Status](https://img.shields.io/badge/Status-Completed-green)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-4%20hrs-black)]()
+- **Author:** @jlahire
+- **Tasks:**
+  1. Create test-frontend folder for testing locally
+  2. Write python test file(no asyncio)
+  3. write app.js test file
+  4. Test local setup
+- **Progress made:**
+  1. Created a folder called test-frontend and added css/js folders
+  2. Wrote a index.html file 
+  3. used flask in test-weather.py to quickly get a test server running
+  4. Got local test working
+- **Next steps:**
+  1. recheck .toml
+  2. review weather.py
+  3. continue app.js
+  4. build a project timeline
+- **Comments:**
+  - I spent a lot of time today reading about Flask vs my Netlify setup. Flask seems like a better choice because I can see the changes I make right away instead of having to deploy to netlify every time I want to test something.
+- **Challenges faced:**
+  1. Wasn't sure how much of weather.py I needed to copy over
+  2. CORs is annoying and gave me issues with local testing
+  3. Had to figure out how to match my weather.py responses in Flask
+- **Solutions found:**
+  1. After reading the Flask docs I realized I could just make a simple version that does the core stuff
+  2. Found flask-cors which was really easy to add
+  3. Made the test responses simpler but kept the same data structure so the frontend still works
+
 ## Current Log
 ### [MM-DD-YYYY] [![Day Status](https://img.shields.io/badge/Status-Untouched-red)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-0%20hrs-black)]()
 - **Author:** @devName
 - **Tasks:**
-  1. set up files to be tested locally
+  1. recheck .toml
+  2. review weather.py
+  3. continue app.js
+  4. build a project timeline
 - **Progress made:**
   1. [progress]
 - **Next steps:**
@@ -340,6 +371,7 @@ WEATHER-PWA-2
 - **Solutions found:**
   1. [solution1]
   2. [solution2]
+
 ## Challenges
 [Back to Top](#table-of-contents)
 
@@ -678,7 +710,7 @@ WEATHER-PWA-2
     - *Noteworthy Aspects:* Any particularly noteworthy aspects of their contribution
 
 ### [Link to Add a Daily Log](#daily-logs)
-### [MM-DD-YYYY] [![Day Status](https://img.shields.io/badge/Status-statusTemplate-green)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-0%20hrs-black)]()
+### [MM-DD-YYYY] [![Day Status](https://img.shields.io/badge/Status-Untouched-red)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-0%20hrs-black)]()
 - **Author:** @devName
 - **Tasks:**
 
