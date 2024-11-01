@@ -246,7 +246,6 @@ WEATHER-PWA-2
   2. Not enough time. 
 - **Solutions found:**
   1. I'm getting the statusCode 500 because my time format doesn't work with noaa api. I need to change from '%m-%d-%Y' to '%Y-%m-%d' in both my startDate and endDate variables.
-      1. After making the above changes I got a successful test.
       ```
       python weather.py
       {'statusCode': 200, 'body': '{"message": " 30350, US, 7 test.", "dataLength": 148}'}
@@ -355,24 +354,26 @@ WEATHER-PWA-2
 
 
 ## Current Log
-### [MM-DD-YYYY] [![Day Status](https://img.shields.io/badge/Status-Untouched-red)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-0%20hrs-black)]()
-- **Author:** @devName
+### [10-23-2024] [![Day Status](https://img.shields.io/badge/Status-Ongoing-yellow)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-1%20hrs-black)]()
+- **Author:** @jlahire
 - **Tasks:**
   1. recheck .toml
   2. review weather.py
   3. continue app.js
   4. build a project timeline
+  5. check index.html
 - **Progress made:**
-  1. [progress]
+  1. I created a new branch 'app.js api' and started to build the api call in app.js today. Checked my .toml file to make sure the api call directs to netlify/functions. Checked index.html to make sure i'm using the same form format that i put there. Checked to make sure I'm using the same names in both weather.py and app.js. 
+  2. [progress]
 - **Next steps:**
-  1. [nextSteps]
+  1. build a project timeline
 - **Comments:**
   - [comments]
 - **Challenges faced:**
-  1. [challenge1]
+  1. Not sure exactly how my .js code is supposed to look.
   2. [challenge2]
 - **Solutions found:**
-  1. [solution1]
+  1. Will revisit once I have time to clean up the code.
   2. [solution2]
 
 ## Challenges
@@ -709,8 +710,6 @@ WEATHER-PWA-2
   - *Impact:* How their contribution impacted the project
 - **Comments:** 
   - *Thoughts:*
-    - *Appreciation:* Express gratitude and appreciation
-    - *Noteworthy Aspects:* Any particularly noteworthy aspects of their contribution
 
 ### [Link to Add a Daily Log](#daily-logs)
 ### [MM-DD-YYYY] [![Day Status](https://img.shields.io/badge/Status-Untouched-red)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-0%20hrs-black)]()

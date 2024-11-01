@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const zipcode = document.getElementById('zipcode').value;
         const country = document.getElementById('country').value;
         const period = document.getElementById('period').value;
-
+      
         resultsDiv.textContent = `fetching weather data...`;
         try {
             const response = await fetch(`/api/weather`, {
@@ -27,5 +27,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+function createChart(temperatureData, humidityData){
 
-console.log("test #2 api attempt");
+
+
+}
+
+
+console.log("test #5");
