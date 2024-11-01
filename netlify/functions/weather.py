@@ -62,11 +62,11 @@ def lambda_handler(event, context):
 
 #async test 
 #async def test():
-    test_event = {'weatherStuff': {'zipcode': '30350', 'country': 'US', 'period': '7'}}
-    result = await handler(test_event, {})
-    print(result)
-    assert result['statusCode'] == 200
-    assert 'weatherData' in json.loads(result['body'])#['dataLength'] > 0
-    print('Weather fetched and processed successfully')
+#    test_event = {'weatherStuff': {'zipcode': '30350', 'country': 'US', 'period': '7'}}
+#    result = await handler(test_event, {})
+#    print(result)
+#    assert result['statusCode'] == 200
+#    assert 'weatherData' in json.loads(result['body'])#['dataLength'] > 0
+#    print('Weather fetched and processed successfully')
 
 #asyncio.run(test())
