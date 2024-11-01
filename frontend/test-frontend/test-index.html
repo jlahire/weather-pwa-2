@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Test</title>
+    <link rel="stylesheet" href="test-css/style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Local Test</h1>
+        <form id="weather-form">
+            <input type="text" id="zipcode" placeholder="Zipcode" required>
+            <input type="text" id="country" placeholder="Country" value="US" required>
+            <input type="number" id="period" placeholder="Days" value="7" required>
+            <button type="submit">Get Weather</button>
+        </form>
+        <div id="weather-results"></div>
+        <canvas id="weather-chart"></canvas>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="test-js/test-app.js"></script>
+</body>
+</html>
