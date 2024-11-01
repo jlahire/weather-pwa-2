@@ -335,6 +335,7 @@ WEATHER-PWA-2
   2. Wrote a index.html file 
   3. used flask in test-weather.py to quickly get a test server running
   4. Got local test working
+  ![Local test:](local-test-success.png)
 - **Next steps:**
   1. recheck .toml
   2. review weather.py
@@ -350,6 +351,8 @@ WEATHER-PWA-2
   1. After reading the Flask docs I realized I could just make a simple version that does the core stuff
   2. Found flask-cors which was really easy to add
   3. Made the test responses simpler but kept the same data structure so the frontend still works
+
+
 
 ## Current Log
 ### [MM-DD-YYYY] [![Day Status](https://img.shields.io/badge/Status-Untouched-red)]()[![Hours Worked](https://img.shields.io/badge/Hours%20Worked-0%20hrs-black)]()
