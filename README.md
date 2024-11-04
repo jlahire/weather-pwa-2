@@ -21,9 +21,9 @@ This Progressive Web App(PWA) is a revamp of a extension of my final project for
 
 My first attempt at this project got really complicated and I made the mistake of making changes to code without really keeping track of changes or documenting in the code. I think the part that really messed up the first attempt was that I took bits and pieces of code from suggestions online and just threw them into my code to try and resolve build issues. 
 
-For this attempt I spent about 8 hours reading/watching all the recources in [Documents](DEVLOG.md#documents) and [Web Resources](DEVLOG.md#web-resources) The plan this time is to build the PWA according to the recomended set up. I will attempt to use python where I can but wont compromise the project for it.   
+For this attempt I spent about 8 hours reading/watching all the recources in [Documents](https://github.com/jlahire/weather-pwa-2/wiki/Documents) and [Web Resources](https://github.com/jlahire/weather-pwa-2/wiki/Web-Resources) The plan this time is to build the PWA according to the recomended set up. I will attempt to use python where I can but wont compromise the project for it.   
 
-See the [DEVLOG.md](DEVLOG.md) for the development process. I will make note all challenges and solutions found as well as all the people, documents and resources that helped me get this project started and running.
+See the [Wiki](https://github.com/jlahire/weather-pwa-2/wiki) for the development process. I will make note all challenges and solutions found as well as all the people, documents and resources that helped me get this project started and running.
 
 ## Features
 [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
