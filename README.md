@@ -6,7 +6,7 @@
 
 - [[Code]>>](#code) [![Status](https://img.shields.io/badge/Status-Completed-green)](#code)
 
-- [[API Reference]>>](#api) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#api)
+- [[API Reference]>>](#api) [![Status](https://img.shields.io/badge/Status-Completed-green)](#api)
 
 - [[License]>>](#license) [![Status](https://img.shields.io/badge/Status-Completed-green)](#license)
 
@@ -68,10 +68,42 @@ See the [Wiki](https://github.com/jlahire/weather-pwa-2/wiki) for the developmen
 
 
 
-
 ## API
-[![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
 
+Talks to NOAA sensors. It is really simple since this is just a personal project..
+
+### How? 
+[![Usage Status](https://img.shields.io/badge/Status-Active-blue)]()
+
+`/api/weather`
+
+Takes 3 inputs (zipcode, country, period) and returns weather stuff from NOAA.
+
+#### input
+```javascript
+// Basic fetch example
+const response = await fetch(`/api/weather`, {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json',},
+    body: JSON.stringify({weatherStuff: {zipcode,country,period}})
+});
+```
+
+#### return
+[![Response Status](https://img.shields.io/badge/Type-JSON-blue)]()
+```javascript
+{resultsDiv.textContent = data.weatherData;
+console.log('Temperature data:', data.temperatureData);
+console.log('Humidity data:', data.humidityData);} 
+```
+
+#### errors
+[![Error Handling](https://img.shields.io/badge/Status-Implemented-green)]()
+- If you forget something: "Missing input"
+- If period isn't a number: "Period must be integer"
+- If something breaks: You'll get the specific error
+
+Check out the [Wiki](https://github.com/jlahire/weather-pwa-2/wiki) if you want to see how I built and tested this.
 
 
 ## License
