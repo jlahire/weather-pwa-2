@@ -10,7 +10,7 @@
 ## Description
 This Progressive Web App(PWA) is a revamp of a extension of my final project for CEIS110 Intro to Programming. The project involved using noaa_sdk and matplotlib to create a simple Python program that takes zipcode, country, and start/end date as parameters to pull weather data from NOAA sensors. After completing that project I attempted to take it a step further by making a app version of it for my phone. Because I do not know or have the time to learn how to create iOS/Android apps I opted for creating a PWA knowing it can be 'added to the home screen' as a sudo app.
 
-My first attempt at this project got really complicated and I made the mistake of making changes to code without really keeping track of changes or documenting in the code. I think the part that really messed up the first attempt was that I took bits and pieces of code from suggestions online and just threw them into my code to try and resolve build issues. 
+My [first attempt](https://github.com/jlahire/weather-pwa) at this project got really complicated and I made the mistake of making changes to code without really keeping track of changes or documenting in the code. I think the part that really messed up the first attempt was that I took bits and pieces of code from suggestions online and just threw them into my code to try and resolve build issues. 
 
 For this attempt I spent about 8 hours reading/watching all the recources in [Documents](https://github.com/jlahire/weather-pwa-2/wiki/Documents) and [Web Resources](https://github.com/jlahire/weather-pwa-2/wiki/Web-Resources) The plan this time is to build the PWA according to the recomended set up. I will attempt to use python where I can but wont compromise the project for it.   
 
