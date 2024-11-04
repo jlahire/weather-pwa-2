@@ -4,17 +4,12 @@
 
 - [[Description]>>](#description) [![Status](https://img.shields.io/badge/Status-Completed-green)](#description)
 
-- [[Features]>>](#features) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#features)
-
 - [[Code]>>](#code) [![Status](https://img.shields.io/badge/Status-Completed-green)](#code)
 
 - [[API Reference]>>](#api) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#api)
 
-- [[Contributing]>>](#contributing) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#contributing)
-
 - [[License]>>](#license) [![Status](https://img.shields.io/badge/Status-Completed-green)](#license)
 
-- [[Contact]>>](#contact) [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)](#contact)
 
 ## Description
 This Progressive Web App(PWA) is a revamp of a extension of my final project for CEIS110 Intro to Programming. The project involved using noaa_sdk and matplotlib to create a simple Python program that takes zipcode, country, and start/end date as parameters to pull weather data from NOAA sensors. After completing that project I attempted to take it a step further by making a app version of it for my phone. Because I do not know or have the time to learn how to create iOS/Android apps I opted for creating a PWA knowing it can be 'added to the home screen' as a sudo app.
@@ -24,9 +19,6 @@ My first attempt at this project got really complicated and I made the mistake o
 For this attempt I spent about 8 hours reading/watching all the recources in [Documents](https://github.com/jlahire/weather-pwa-2/wiki/Documents) and [Web Resources](https://github.com/jlahire/weather-pwa-2/wiki/Web-Resources) The plan this time is to build the PWA according to the recomended set up. I will attempt to use python where I can but wont compromise the project for it.   
 
 See the [Wiki](https://github.com/jlahire/weather-pwa-2/wiki) for the development process. I will make note all challenges and solutions found as well as all the people, documents and resources that helped me get this project started and running.
-
-## Features
-[![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
 
 ## Code
 
@@ -81,37 +73,11 @@ See the [Wiki](https://github.com/jlahire/weather-pwa-2/wiki) for the developmen
 [![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
 
 
-## Contributing
-
-[![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
-
-While this is primarily a personal project, I welcome forks, issues, and pull requests. Here are some ways you can contribute:
-
-
-
-### Forking the Project
-
-[![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
-
-
-### Reporting Issues
-
-[![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
-
-
-### Pull Requests
-
-[![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-
-## Contact
-
-[![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow)]()
-
 
 
 
