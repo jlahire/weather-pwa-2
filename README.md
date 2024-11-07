@@ -1,4 +1,4 @@
-# Lahire Weather PWA v2.0 <Project Ended>
+# Lahire Weather PWA v2.0 Project Ended
 
 ## Table of Contents
 
